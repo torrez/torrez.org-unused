@@ -1,0 +1,69 @@
+body {
+  color:#001F05;
+  background-color: #E8E7DC;
+  margin:0;
+  text-align:center;
+  font-family:helvetica;
+}
+
+#mainscreen {
+  margin:0 auto;
+  width:850px;
+  text-align:left;
+}
+
+.sitebox {
+    border:2px solid #001F05;
+    padding:10px;
+}
+
+.banner {
+    margin-top:9px;
+    width:840px;
+    height:75px;
+}
+
+.exposition {
+    width:840px;
+}
+
+.exposition p {
+    line-height:23px;
+}
+
+.innertext {
+  width:400px;
+  float:left;
+}
+
+.innertext p {
+    padding:0;
+    margin:0 120px;
+}
+
+.navigation {
+    padding-left:0;
+    margin-left:0;
+}
+
+.navigation ul {
+    padding-left:0px;
+}
+.navigation ul li {
+    margin-left: 0;
+    padding: 3px 15px;
+    border-left: 2px solid #000;
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration:none;
+    font-weight:bold;
+    color:purple;    
+}
+
+.pimg {
+    padding-right:15px;
+    padding-bottom:15px;
+}
