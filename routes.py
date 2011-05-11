@@ -7,4 +7,6 @@ routes = [
     (r'/domains', handlers.home.DomainsHandler),
     (r'/where-i-am', handlers.home.LocationHandler),
     (r'/uptime.txt', handlers.misc.UptimeHandler),
+    (r'/projects/xumouse.shtml', handlers.misc.XuMouseHandler),
+    (r'/project/XuMouse.zip', handlers.misc.XuMouseDownloadHandler)
 ]
