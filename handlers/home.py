@@ -15,3 +15,10 @@ class DomainsHandler(base.BaseHandler):
 class LocationHandler(base.BaseHandler):
     def get(self):
         return self.render('home/where-i-am.html')        
+
+class ConferenceHandler(base.BaseHandler):
+	def get(self):
+		return self.post()
+
+	def post(self):
+		return self.render("home/conference.xml")
