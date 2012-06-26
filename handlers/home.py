@@ -17,6 +17,9 @@ class LocationHandler(base.BaseHandler):
         return self.render('home/where-i-am.html')        
 
 class ConferenceHandler(base.BaseHandler):
+	def check_xsrf_cookie(self):
+		pass
+
 	def get(self):
 		return self.post()
 
