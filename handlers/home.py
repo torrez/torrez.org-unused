@@ -1,5 +1,9 @@
 import base
 
+class NewIndexHandler(base.BaseHandler):
+    def get(self):
+        return self.render('home/index.html')
+
 class IndexHandler(base.BaseHandler):
     def get(self):
         return self.render('home/index.html')

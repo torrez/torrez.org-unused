@@ -3,6 +3,7 @@ import handlers.misc
 
 routes = [
     (r'/', handlers.home.IndexHandler),
+    (r'/new', handlers.home.NewIndexHandler),
     (r'/projects', handlers.home.ProjectsHandler),
     (r'/domains', handlers.home.DomainsHandler),
     (r'/where-i-am', handlers.home.LocationHandler),
